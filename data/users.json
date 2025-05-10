@@ -1,0 +1,23 @@
+[
+    {
+        "id": "P123",
+        "name": "Awesome Product",
+        "description": "This is a great product.",
+        "price": 29.99,
+        "category": "Electronics"
+    },
+    {
+        "id": "P456",
+        "name": "Amazing Gadget",
+        "description": "A truly amazing gadget.",
+        "price": 49.99,
+        "category": "Electronics"
+    },
+    {
+        "id": "P789",
+        "name": "Cool Shirt",
+        "description": "A stylish shirt.",
+        "price": 19.99,
+        "category": "Clothing"
+    }
+]

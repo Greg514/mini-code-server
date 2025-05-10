@@ -22,6 +22,19 @@ const server = http.createServer((req, res) => {
             res.end(data);
         })
     }
+    else if ( req.url === '/api'){
+        fs.readFile (path.join(__dirname, 'data/users.json'), (err,data_)=>{
+            res.writeHead(200,{'Content-Type': 'application/json'});
+            res.end(data_);
+        })
+    }
+   
+    else {
+        res.writeHead(404, {'Content-Type': 'text/html'});
+        res.end('<h1>404 Not Found</h1>');  
+        res.end();
+    }
+
 
 });
 
